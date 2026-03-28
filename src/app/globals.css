@@ -69,4 +69,6 @@ background-color:#0a0a0a ;
   animation: mobileFadeSoft 0.65s ease-out 0.56s both;
 }
 
-
+html,body {
+  scroll-behavior: smooth;
+}

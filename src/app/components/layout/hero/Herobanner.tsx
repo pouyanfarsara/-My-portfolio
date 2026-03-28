@@ -364,7 +364,7 @@ export default function Herobanner() {
         </div>
       </section>
 
-      <section className="w-full bg-[#050505] px-6 py-24 text-white sm:px-10 lg:px-20 xl:px-32">
+      <section id="skills" className="w-full bg-[#050505] px-6 py-24 text-white sm:px-10 lg:px-20 xl:px-32">
         <div className="mx-auto max-w-[1200px] text-center">
           <h2 className="mobile-fade-up mb-14 text-4xl font-semibold tracking-[-0.03em] sm:hidden">
             Technical Arsenal
@@ -412,7 +412,7 @@ export default function Herobanner() {
         </div>
         
       </section>
-      <SelectedWorks/>
+      
     </>
   );
 }
