@@ -15,14 +15,14 @@ const projects = [
     github: "https://github.com/pouyanfarsara/Green-shop-plant-shop",
   },
   {
-    title: "Attendee Experience Hub",
+    title: "Nest Shop",
     description:
-      "Redesigned the entire attendee journey from registration to live session participation. Focused on mobile responsiveness and low-latency interaction.",
-    tag: "B2C PORTAL",
-    image: "/projects/project-2.png",
+      "Built a responsive e-commerce interface for a Supermarket store with an emphasis on seamless product discovery.",
+    tag: "Auth",
+    image: "/nestshop/N1.png",
     stack: "Next.js • Tailwind • React.js • Framer",
-    live: "#",
-    github: "#",
+    live: "https://nest-shop-iota.vercel.app/",
+    github: "https://github.com/pouyanfarsara/Nest-Shop",
   },
 ];
 

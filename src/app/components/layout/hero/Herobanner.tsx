@@ -67,10 +67,11 @@ export default function Herobanner() {
           </motion.p>
 
           <div className="mobile-fade-soft-delay-2 flex w-full flex-wrap gap-3 sm:animate-none">
-            <Button
+            <a href="#work"> <Button
               text="VIEW PROJECTS"
-              className="cursor-pointer whitespace-nowrap rounded-sm bg-[#00f0ff] px-4 py-2 text-xs font-semibold text-black hover:bg-white hover:text-black sm:text-sm"
-            />
+              className="cursor-pointer whitespace-nowrap rounded-sm bg-[#00f0ff] px-4 py-2 text-xs font-semibold text-black hover:bg-white hover:text-black sm:text-sm" 
+            /></a>
+           
 
             <Button
               text="GET IN TOUCH"
