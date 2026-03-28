@@ -164,7 +164,6 @@ export default function Header() {
         </div>
       )}
 
-      {/* Resume Modal */}
       {isResumeModalOpen && (
         <div
           className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 px-4 backdrop-blur-sm"
@@ -197,7 +196,7 @@ export default function Header() {
 
             <div className="flex flex-col gap-3 sm:flex-row">
               <a
-                href="/resume/Sara-Pouyanfar-Resume.pdf"
+                href="/sarapouyanfar.pdf"
                 download
                 className="inline-flex items-center justify-center gap-2 rounded-md bg-[#00f0ff] px-5 py-3 font-semibold text-black transition hover:bg-white"
               >
