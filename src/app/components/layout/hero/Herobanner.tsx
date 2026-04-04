@@ -1,6 +1,6 @@
 "use client";
 
-import { Dot, Code, Cpu, Palette, Zap, Layers } from "lucide-react";
+import { Dot, Code, Cpu, Palette, Zap, Layers, Box, Rocket, GitBranch, BookMarked } from "lucide-react";
 import Button from "@/app/components/ui/button";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
@@ -14,9 +14,13 @@ const skills = [
   { name: "Tailwind CSS", icon: Palette },
   { name: "Framer Motion", icon: Zap },
   { name: "JavaScript", icon: Code },
-  { name: "Performance", icon: Zap },
+  { name: "Performance", icon: Rocket },
   { name: "UI/UX Design", icon: Palette },
   { name: "REST APIs", icon: Layers },
+  { name: "Three.js", icon: Box },
+  { name: "AOS / ASAP", icon: Rocket },
+  { name: "CI/CD", icon: GitBranch },
+  { name: "GitHub", icon: BookMarked },
 ];
 
 export default function Herobanner() {

@@ -69,6 +69,55 @@ background-color:#0a0a0a ;
   animation: mobileFadeSoft 0.65s ease-out 0.56s both;
 }
 
-html,body {
+html {
   scroll-behavior: smooth;
+}
+
+/* Mobile responsiveness improvements */
+@media (max-width: 480px) {
+  /* Ensure touch targets are at least 44px for accessibility */
+  input,
+  textarea,
+  button,
+  a {
+    min-height: 44px;
+  }
+
+  /* Prevent text from being too small */
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  /* Improve form input usability */
+  input:focus,
+  textarea:focus {
+    font-size: 16px !important; /* Prevents iOS zoom on focus */
+  }
+}
+
+/* Ensure proper box-sizing for all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent horizontal scrolling */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Improve tap highlight on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Smooth transitions for mobile */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
 }
