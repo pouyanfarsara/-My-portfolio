@@ -7,7 +7,7 @@ const projects = [
     description:
       "Designed and developed a full-stack admin dashboard for e-commerce management, including product CRUD operations, order management, and analytics visualization. Emphasized responsive design, scalable architecture, and API integration using Next.js App Router.",
     tag: "AdminPanel",
-    image: "/Adminpanel/adminpanel.png",
+    image: "/AdminPanel/adminpanel.png",
     stack: "NEXT.JS • TYPESCRIPT • CSS MODULES • API ROUTES",
     live: "#",
     github: "https://github.com/pouyanfarsara/Green-shop-plant-shop",
