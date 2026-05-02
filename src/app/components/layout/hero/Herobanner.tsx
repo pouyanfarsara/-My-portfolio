@@ -1,6 +1,17 @@
 "use client";
 
-import { Dot, Code, Cpu, Palette, Zap, Layers, Box, Rocket, GitBranch, BookMarked } from "lucide-react";
+import {
+  Dot,
+  Code,
+  Cpu,
+  Palette,
+  Zap,
+  Layers,
+  Box,
+  Rocket,
+  GitBranch,
+  BookMarked,
+} from "lucide-react";
 import Button from "@/app/components/ui/button";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
@@ -26,10 +37,10 @@ const skills = [
 export default function Herobanner() {
   return (
     <>
- <section className="relative z-10 grid min-h-screen grid-cols-1 items-center gap-10 overflow-x-hidden px-6 pt-10 pb-12 text-left sm:grid-cols-2 sm:px-12 sm:pt-20 lg:min-h-[90vh] lg:px-20 xl:px-32 xl:pt-24">
-  <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-    <HeroScene />
-  </div>
+      <section className="relative z-10 grid min-h-screen grid-cols-1 items-center gap-10 overflow-x-hidden px-6 pt-10 pb-12 text-left sm:grid-cols-2 sm:px-12 sm:pt-20 lg:min-h-[90vh] lg:px-20 xl:px-32 xl:pt-24">
+        <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
+          <HeroScene />
+        </div>
         <div className="relative z-20 flex flex-col gap-4">
           <h5 className="mobile-fade-up flex w-full items-center bg-[#0000006e] px-2 text-white sm:max-w-xs">
             <Dot color="#00f0ff" size={36} />
@@ -42,7 +53,6 @@ export default function Herobanner() {
             Building Fast, <span className="text-[#00f0ff]">Scalable</span>{" "}
             Frontend Applications
           </h1>
-
           <motion.h1
             initial={{ opacity: 0, y: 28 }}
             animate={{ opacity: 1, y: 0 }}
@@ -71,11 +81,13 @@ export default function Herobanner() {
           </motion.p>
 
           <div className="mobile-fade-soft-delay-2 flex w-full flex-wrap gap-3 sm:animate-none">
-            <a href="#work"> <Button
-              text="VIEW PROJECTS"
-              className="cursor-pointer whitespace-nowrap rounded-sm bg-[#00f0ff] px-4 py-2 text-xs font-semibold text-black hover:bg-white hover:text-black sm:text-sm" 
-            /></a>
-           
+            <a href="#work">
+              {" "}
+              <Button
+                text="VIEW PROJECTS"
+                className="cursor-pointer whitespace-nowrap rounded-sm bg-[#00f0ff] px-4 py-2 text-xs font-semibold text-black hover:bg-white hover:text-black sm:text-sm"
+              />
+            </a>
 
             <Button
               text="GET IN TOUCH"
@@ -84,7 +96,7 @@ export default function Herobanner() {
           </div>
         </div>
 
-       <div className="relative z-20 w-full">
+        <div className="relative z-20 w-full">
           <div className="relative flex items-center justify-center">
             <div className="pointer-events-none absolute -z-10 h-[260px] w-[260px] rounded-full bg-cyan-400/10 blur-[100px] sm:h-[300px] sm:w-[300px]" />
             <div className="pointer-events-none absolute -z-10 h-[220px] w-[220px] rounded-full bg-blue-500/ blur-[90px] sm:h-[250px] sm:w-[250px]" />
@@ -282,10 +294,10 @@ export default function Herobanner() {
                           index === 0
                             ? "mobile-fade-soft"
                             : index === 1
-                            ? "mobile-fade-soft-delay-1"
-                            : index === 2
-                            ? "mobile-fade-soft-delay-2"
-                            : "mobile-fade-soft-delay-3"
+                              ? "mobile-fade-soft-delay-1"
+                              : index === 2
+                                ? "mobile-fade-soft-delay-2"
+                                : "mobile-fade-soft-delay-3"
                         } sm:animate-none`}
                       >
                         {item}
@@ -369,7 +381,10 @@ export default function Herobanner() {
         </div>
       </section>
 
-      <section id="skills" className="w-full bg-[#050505] px-6 py-24 text-white sm:px-10 lg:px-20 xl:px-32">
+      <section
+        id="skills"
+        className="w-full bg-[#050505] px-6 py-24 text-white sm:px-10 lg:px-20 xl:px-32"
+      >
         <div className="mx-auto max-w-[1200px] text-center">
           <h2 className="mobile-fade-up mb-14 text-4xl font-semibold tracking-[-0.03em] sm:hidden">
             Technical Arsenal
@@ -393,18 +408,18 @@ export default function Herobanner() {
                   index === 0
                     ? "mobile-fade-soft"
                     : index === 1
-                    ? "mobile-fade-soft-delay-1"
-                    : index === 2
-                    ? "mobile-fade-soft-delay-2"
-                    : index === 3
-                    ? "mobile-fade-soft-delay-3"
-                    : index === 4
-                    ? "mobile-fade-soft-delay-4"
-                    : index === 5
-                    ? "mobile-fade-soft-delay-5"
-                    : index === 6
-                    ? "mobile-fade-soft-delay-6"
-                    : "mobile-fade-soft-delay-7"
+                      ? "mobile-fade-soft-delay-1"
+                      : index === 2
+                        ? "mobile-fade-soft-delay-2"
+                        : index === 3
+                          ? "mobile-fade-soft-delay-3"
+                          : index === 4
+                            ? "mobile-fade-soft-delay-4"
+                            : index === 5
+                              ? "mobile-fade-soft-delay-5"
+                              : index === 6
+                                ? "mobile-fade-soft-delay-6"
+                                : "mobile-fade-soft-delay-7"
                 } sm:animate-none`}
               >
                 <Icon className="h-6 w-6 text-gray-400" />
@@ -415,9 +430,7 @@ export default function Herobanner() {
             ))}
           </div>
         </div>
-        
       </section>
-      
     </>
   );
 }

@@ -1,9 +1,37 @@
-"use client";
-
+import { Code2, LinkIcon } from "lucide-react";
 import Image from "next/image";
-import { Link as LinkIcon, Code2 } from "lucide-react";
 
 const projects = [
+  {
+    title: "Admin Panel",
+    description:
+      "Designed and developed a full-stack admin dashboard for e-commerce management, including product CRUD operations, order management, and analytics visualization. Emphasized responsive design, scalable architecture, and API integration using Next.js App Router.",
+    tag: "AdminPanel",
+    image: "/Adminpanel/adminpanel.png",
+    stack: "NEXT.JS • TYPESCRIPT • CSS MODULES • API ROUTES",
+    live: "#",
+    github: "https://github.com/pouyanfarsara/Green-shop-plant-shop",
+  },
+  {
+    title: "Education Website",
+    description:
+      "Collaborated as a Frontend Developer on the Pitedu platform, building and optimizing user interfaces using modern web technologies. Focused on creating responsive layouts, improving performance, and ensuring a smooth user experience across devices.",
+    tag: "Education",
+    image: "/education/education.png",
+    stack: "NEXT.JS • TYPESCRIPT • CSS MODULES • API ROUTES",
+    live: "https://pitedu.org/",
+    github: "",
+  },
+  {
+    title: "Nest Shop",
+    description:
+      "Built a responsive full-stack grocery e-commerce app with product listing, dynamic product details, shopping cart functionality, and authentication using Next.js App Router.",
+    tag: "FULL-STACK E-COMMERCE",
+    image: "/nestshop/N1.png",
+    stack: "NEXT.JS • REACT • TAILWIND • NEXTAUTH • ZOD  • Framer ",
+    live: "https://nest-shop-iota.vercel.app/",
+    github: "https://github.com/pouyanfarsara/Nest-Shop",
+  },
   {
     title: "GreenShop",
     description:
@@ -13,16 +41,6 @@ const projects = [
     stack: "React.js • Tailwind • Swiper",
     live: "#",
     github: "https://github.com/pouyanfarsara/Green-shop-plant-shop",
-  },
-  {
-    title: "Nest Shop",
-    description:
-      "Built a responsive e-commerce interface for a Supermarket store with an emphasis on seamless product discovery.",
-    tag: "Auth",
-    image: "/nestshop/N1.png",
-    stack: "Next.js • Tailwind • React.js • Framer",
-    live: "https://nest-shop-iota.vercel.app/",
-    github: "https://github.com/pouyanfarsara/Nest-Shop",
   },
 ];
 

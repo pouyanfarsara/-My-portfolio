@@ -32,14 +32,18 @@ export default function ContactSection() {
               <div className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center bg-[#151A21] rounded-md flex-shrink-0">
                 ✉️
               </div>
-              <span className="text-sm sm:text-base break-all">sara.pouyanfar@gmail.com</span>
+              <span className="text-sm sm:text-base break-all">
+                sara.pouyanfar@gmail.com
+              </span>
             </div>
 
             <div className="flex items-center gap-3 text-gray-300">
               <div className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center bg-[#151A21] rounded-md flex-shrink-0">
                 🔗
               </div>
-              <span className="text-sm sm:text-base break-all">www.linkedin.com/in/sarapouyanfar</span>
+              <span className="text-sm sm:text-base break-all">
+                www.linkedin.com/in/sarapouyanfar
+              </span>
             </div>
           </div>
         </div>
@@ -99,7 +103,7 @@ export default function ContactSection() {
 
           <li>
             <a
-              href="https://t.me/yourusername"
+              href="https://t.me/sarapouyanfar"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-cyan-400 transition"

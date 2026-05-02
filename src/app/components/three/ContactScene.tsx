@@ -71,7 +71,7 @@ function Particles() {
 
 export default function ContactScene() {
   return (
-    <div className="absolute inset-0 pointer-events-none">
+    <div className="absolute inset-0 z-0 pointer-events-none">
       <Canvas camera={{ position: [0, 0, 6], fov: 50 }}>
         <ambientLight intensity={0.8} />
         <directionalLight position={[3, 2, 2]} intensity={1.2} />
