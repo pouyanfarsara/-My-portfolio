@@ -135,8 +135,13 @@ export default function Header() {
             </p>
 
             <div className="flex flex-col gap-3 sm:flex-row">
-              <a href="/sarapouyanfar CV.pdf" download>
-                Download CV
+              <a
+                href="/sarapouyanfar Cv.pdf"
+                download
+                className="inline-flex items-center justify-center gap-2 rounded-md bg-[#00f0ff] px-5 py-3 font-semibold text-black hover:bg-white"
+              >
+                <Download className="h-4 w-4" />
+                Download Resume
               </a>
 
               <button
