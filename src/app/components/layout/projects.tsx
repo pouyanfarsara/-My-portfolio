@@ -9,8 +9,8 @@ const projects = [
     tag: "AdminPanel",
     image: "/AdminPanel/adminpanel.png",
     stack: "NEXT.JS • TYPESCRIPT • CSS MODULES • API ROUTES",
-    live: "#",
-    github: "https://github.com/pouyanfarsara/Green-shop-plant-shop",
+    live: "https://admin-panel-gpkk.vercel.app/",
+    github: "https://github.com/pouyanfarsara/AdminPanel",
   },
   {
     title: "Education Website",
